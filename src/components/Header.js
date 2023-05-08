@@ -8,7 +8,7 @@ export const Header = () => {
         <div className='container'>
 
 
-        <span className="nav-links">
+        <ul className="nav-links">
 
             <Link to="/"> Leonardo Chen </Link>
   
@@ -16,7 +16,7 @@ export const Header = () => {
 
             <Link to="/CV">CV</Link>
             
-        </span>
+        </ul>
         </div>
 
 

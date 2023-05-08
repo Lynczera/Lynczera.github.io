@@ -7,7 +7,7 @@ export const Home = () => {
 
          <img className='photo' src={require("../images/cbumOuO.png")} alt="Logo" />
         
-        <div className='aboutMe'> 
+        <p1 className='aboutMe'> 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
          Etiam at tempor magna. Donec ut vulputate tortor. Ut efficitur, 
          dui a sollicitudin elementum, mi ex hendrerit augue, ac dictum 
@@ -19,7 +19,7 @@ export const Home = () => {
          Integer quis vestibulum purus. Nullam volutpat non eros sed maximus. Quisque 
          feugiat tristique odio, vitae ornare tellus pretium id. Donec neque elit, mollis et dui eu, 
 
-         </div>
+         </p1>
 
          </div>
     );

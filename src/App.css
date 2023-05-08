@@ -15,7 +15,8 @@
 
 .nav-links{
   background-color: gray;
-  margin: 0;
+  margin: 0 0px;
+  padding: 0;
   height: 65px;
   width: 100%;
   display: flex;
@@ -42,36 +43,33 @@ header .nav-links a:hover{
 
   color: black;
   font-family: 'Varela', cursive;
-  font-size: 1.3em;
-  height: 400px;
+  font-size: min(2em, 1vw);
+  height: 50%;
   width: 50%;
-  margin: 10px;
-  position: absolute;
-  left: 30%;
-  top: 40%;
+  position: relative;
+  left: 20%;
+  top: 10%;
   word-spacing: 5px;
   line-height: 40px;
-  padding: 10px;
-  text-align: center;
-  border-radius: 25px;
+  text-align: start;
+  display: inline-block;
 
 }
 .homeContainer{
-  height: 200px;
-  width: 20%;
+  position: absolute;
+  height: 800px;
+  width: 100%;
   background-color: white;
 
 }
 
 .photo{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 15%;
-  height: auto;
-  position: absolute;
+  height: 30%;
+  position: relative;
   top: 10%;
-  left: 30%;
+  left: 20%;
   padding: 10px;
   margin: 10px;
 }
