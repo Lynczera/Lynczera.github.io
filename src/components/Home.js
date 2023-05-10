@@ -1,13 +1,22 @@
-import React, { useContext } from 'react';
+import { FaGithub } from "react-icons/fa";
 
 export const Home = () => {
     return (
 
         <div className='homeContainer'> 
-
-         <img className='photo' src={require("../images/cbumOuO.png")} alt="Logo" />
         
-        <p1 className='aboutMe'> 
+         <script src="https://kit.fontawesome.com/3796a43149.js" crossorigin="anonymous"></script>
+         <div className='personalInfo'>
+         <img className='photo' src={require("../images/cbumOuO.png")} alt="Logo" />
+         <div className='nameAndLinks'>
+         <h1 className='name'> Leonardo Chen</h1>
+          <a href="https://github.com/Lynczera" className="gitLink"> <FaGithub size={56} /> </a>
+
+         </div>
+         
+        
+         </div>
+         <p1 className='aboutMe'> 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
          Etiam at tempor magna. Donec ut vulputate tortor. Ut efficitur, 
          dui a sollicitudin elementum, mi ex hendrerit augue, ac dictum 

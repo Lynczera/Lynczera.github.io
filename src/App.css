@@ -14,13 +14,15 @@
 }
 
 .nav-links{
-  background-color: gray;
+  /* background-color: #bdb8b8; */
+  background-color: #808080;
   margin: 0 0px;
   padding: 0;
   height: 65px;
   width: 100%;
   display: flex;
   color: aliceblue;
+
 }
 
 .nav-links  a:link, a:visited{
@@ -35,7 +37,7 @@
 }
 
 header .nav-links a:hover{
-  background-color: wheat;
+  background-color: #f5deb3;
   color: black;
 }
 
@@ -43,33 +45,54 @@ header .nav-links a:hover{
 
   color: black;
   font-family: 'Varela', cursive;
-  font-size: min(2em, 1vw);
-  height: 50%;
+  font-size: 1.25em;
+  height: 70%;
   width: 50%;
-  position: relative;
-  left: 20%;
-  top: 10%;
   word-spacing: 5px;
   line-height: 40px;
   text-align: start;
   display: inline-block;
+  margin-left: 30px;
+
 
 }
 .homeContainer{
-  position: absolute;
-  height: 800px;
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
   background-color: white;
+  position: relative;
+
 
 }
 
+
+.name{
+  position: relative;
+  font-family: 'Overlock', cursive;
+  font-size: 56px;
+  height: 15%;
+  line-height: 0.9;
+  margin-left: 5px;
+  
+}
+
+.personalInfo{
+  display: flex;
+  flex-wrap: wrap;
+  top: 10%;
+  left: 20%;
+  width: 100%;
+  height: 35%;
+  white-space: normal;
+}
+
 .photo{
+
   display: block;
   width: 15%;
   height: 30%;
   position: relative;
-  top: 10%;
-  left: 20%;
+
   padding: 10px;
   margin: 10px;
 }
@@ -106,3 +129,9 @@ header .nav-links a:hover{
   inherits: true;
   initial-value: 0turn;
 }
+
+
+
+
+
+  
