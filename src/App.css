@@ -233,4 +233,12 @@ html{
     .aboutMe{
       margin-left: 10px;
     }
+
+    .resumeContainer{
+      width: 130vh;
+
+    }
+    .resumeImg{
+      height: 100%;
+    }
 }
