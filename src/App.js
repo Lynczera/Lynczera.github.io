@@ -4,13 +4,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
 import { Home } from "./components/Home";
+import { HashRouter } from "react-router-dom";
 
 import { CV } from "./components/CV";
 import './App.css';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Header />
       <Routes>
 
@@ -21,7 +22,7 @@ function App() {
         <Route path="/CV" element = {<CV/>}/>
 
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
