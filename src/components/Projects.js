@@ -2,6 +2,6 @@ import React from 'react';
 
 export const Projects = () => {
     return (
-      <h1> No projects yet </h1>
+      <h1> Coming soon... </h1>
     );
   };
