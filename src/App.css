@@ -21,7 +21,7 @@
   width: 100%;
   display: flex;
   color: aliceblue;
-
+  position:fixed;
 }
 
 .nav-links  a:link, a:visited{
@@ -64,6 +64,7 @@ header .nav-links a:hover{
 }
 html{
   height: 100%;
+  width: 100%;
   
 }
 
@@ -211,4 +212,20 @@ html{
   width: 200px;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media (max-width : 600px) {
+    .name{
+      font-size: 28px;
+    }
+
+    .photo{
+      width: 125px;
+      height: 80%;
+    }
+
+    .personalInfo{
+      height: 30%;
+
+    }
 }
