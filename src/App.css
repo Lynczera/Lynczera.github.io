@@ -43,8 +43,8 @@ header .nav-links a:hover{
   color: black;
   font-family: 'Varela', cursive;
   font-size: 1.25em;
-  height: 70%;
-  width: 50%;
+  height: 10%;
+  width: 30%;
   word-spacing: 5px;
   line-height: 40px;
   text-align: start;
@@ -58,7 +58,12 @@ header .nav-links a:hover{
   background-color: white;
   position: relative;
   text-decoration: none;
-
+  height: 900px;
+  flex-direction: column;
+}
+html{
+  height: 100%;
+  
 }
 
 .nameAndLinks{
@@ -88,15 +93,15 @@ header .nav-links a:hover{
 .personalInfo{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  height: 35%;
+  width: 50%;
+  height: 60%;
   white-space: normal;
 }
 
 .photo{
   display: block;
   width: 15%;
-  height: 30%;
+
   position: relative;
   padding: 10px;
   margin: 10px;
@@ -106,7 +111,7 @@ header .nav-links a:hover{
   --border-size: 3px;
   --border-angle: 0turn;
   width: 30vmin;
-  height: 25vmin;
+  height: 45vmin;
   background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
   background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
   background-position: center center;

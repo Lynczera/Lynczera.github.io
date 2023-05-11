@@ -9,7 +9,7 @@ export const Home = () => {
         
          <script src="https://kit.fontawesome.com/3796a43149.js" crossorigin="anonymous"></script>
          <div className='personalInfo'>
-         <img className='photo' src={require("../images/cbumOuO.png")} alt="Logo" />
+         <img className='photo' src={require("../images/leonardochenpic.png")} alt="Logo" />
          <div className='nameAndLinks'>
          <h1 className='name'> Leonardo Chen</h1>
 
@@ -21,7 +21,6 @@ export const Home = () => {
 
          </div>
          
-        
          </div>
          <p1 className='aboutMe'> 
 
