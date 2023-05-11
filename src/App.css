@@ -44,7 +44,7 @@ header .nav-links a:hover{
   font-family: 'Varela', cursive;
   font-size: 1.25em;
   height: 10%;
-  width: 30%;
+  width: 50%;
   word-spacing: 5px;
   line-height: 40px;
   text-align: start;
@@ -60,6 +60,7 @@ header .nav-links a:hover{
   text-decoration: none;
   height: 900px;
   flex-direction: column;
+  
 }
 html{
   height: 100%;
@@ -92,16 +93,16 @@ html{
 
 .personalInfo{
   display: flex;
-  flex-wrap: wrap;
-  width: 50%;
+  width: 100%;
   height: 60%;
   white-space: normal;
+  margin-left: 30px;
+  flex-direction: row;
+
 }
 
 .photo{
   display: block;
-  width: 15%;
-
   position: relative;
   padding: 10px;
   margin: 10px;
@@ -110,8 +111,8 @@ html{
 .photo {
   --border-size: 3px;
   --border-angle: 0turn;
-  width: 30vmin;
-  height: 45vmin;
+  width: 250px;
+  height: 90%;
   background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
   background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
   background-position: center center;
