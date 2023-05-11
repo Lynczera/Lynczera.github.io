@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css"
-import resume from '../images/Leonardo_Chen_Resume.pdf'
+import resume from 'Lynczera.github.io/src/images/Leonardo_Chen_Resume.pdf'
 export const CV = () => {
     return (
         <div className='resumeContainer'>   

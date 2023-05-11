@@ -15,7 +15,6 @@ export const Home = () => {
 
          <div className="icons">  
          <a href="https://github.com/Lynczera" className="gitLink"> <FaGithub size={56} /></a> 
-         
           <a href="https://www.linkedin.com/in/leonardo-chen-492582230/" className="linkedinLink"> <FaLinkedin size={56} /></a>
          </div>
           
