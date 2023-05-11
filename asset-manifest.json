@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.57ea764a.css",
-    "main.js": "/static/js/main.9c3a317c.js",
+    "main.css": "/static/css/main.ada1ed57.css",
+    "main.js": "/static/js/main.c91d497d.js",
     "static/js/787.676fbc64.chunk.js": "/static/js/787.676fbc64.chunk.js",
     "static/media/leonardochenpic.png": "/static/media/leonardochenpic.3b49acba9a46589b7535.png",
     "static/media/Leonardo_Chen_Resume.png": "/static/media/Leonardo_Chen_Resume.59842ed66a955cff53d2.png",
     "static/media/Leonardo_Chen_Resume.pdf": "/static/media/Leonardo_Chen_Resume.dcb72fa585218ecc385a.pdf",
     "index.html": "/index.html",
-    "main.57ea764a.css.map": "/static/css/main.57ea764a.css.map",
-    "main.9c3a317c.js.map": "/static/js/main.9c3a317c.js.map",
+    "main.ada1ed57.css.map": "/static/css/main.ada1ed57.css.map",
+    "main.c91d497d.js.map": "/static/js/main.c91d497d.js.map",
     "787.676fbc64.chunk.js.map": "/static/js/787.676fbc64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57ea764a.css",
-    "static/js/main.9c3a317c.js"
+    "static/css/main.ada1ed57.css",
+    "static/js/main.c91d497d.js"
   ]
 }
