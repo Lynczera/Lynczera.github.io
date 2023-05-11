@@ -1,4 +1,6 @@
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 
 export const Home = () => {
     return (
@@ -10,7 +12,14 @@ export const Home = () => {
          <img className='photo' src={require("../images/cbumOuO.png")} alt="Logo" />
          <div className='nameAndLinks'>
          <h1 className='name'> Leonardo Chen</h1>
-          <a href="https://github.com/Lynczera" className="gitLink"> <FaGithub size={56} /> </a>
+
+         <div className="icons">  
+         <a href="https://github.com/Lynczera" className="gitLink"> <FaGithub size={56} /></a> 
+         
+          <a href="https://www.linkedin.com/in/leonardo-chen-492582230/" className="linkedinLink"> <FaLinkedin size={56} /></a>
+         </div>
+          
+
 
          </div>
          
