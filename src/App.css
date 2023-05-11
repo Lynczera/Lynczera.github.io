@@ -226,6 +226,11 @@ html{
 
     .personalInfo{
       height: 30%;
+      margin-left: 5px;
 
+    }
+
+    .aboutMe{
+      margin-left: 10px;
     }
 }
