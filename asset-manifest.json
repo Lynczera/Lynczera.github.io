@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/%7BLynczera.github.io%7D/static/css/main.58be45db.css",
+    "main.js": "/%7BLynczera.github.io%7D/static/js/main.40afad50.js",
+    "static/js/787.676fbc64.chunk.js": "/%7BLynczera.github.io%7D/static/js/787.676fbc64.chunk.js",
+    "pdf.worker.js": "/%7BLynczera.github.io%7D/0429bbc823d2d7b71dd9b878bbfbb1ca.js",
+    "static/media/cbumOuO.png": "/%7BLynczera.github.io%7D/static/media/cbumOuO.de99e2f87e6e598c5e77.png",
+    "static/media/Leonardo_Chen_Resume.pdf": "/%7BLynczera.github.io%7D/static/media/Leonardo_Chen_Resume.dcb72fa585218ecc385a.pdf",
+    "index.html": "/%7BLynczera.github.io%7D/index.html",
+    "main.58be45db.css.map": "/%7BLynczera.github.io%7D/static/css/main.58be45db.css.map",
+    "main.40afad50.js.map": "/%7BLynczera.github.io%7D/static/js/main.40afad50.js.map",
+    "787.676fbc64.chunk.js.map": "/%7BLynczera.github.io%7D/static/js/787.676fbc64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58be45db.css",
+    "static/js/main.40afad50.js"
+  ]
+}
